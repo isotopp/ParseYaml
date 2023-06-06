@@ -2,7 +2,6 @@ package info.koehntopp;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Vector3 {
@@ -19,7 +18,7 @@ public class Vector3 {
     }
 
     public Vector3(int x, int y, int z) {
-        this.xyz = new int[]{ x, y, z } ;
+        this.xyz = new int[]{x, y, z};
     }
 
     public int[] getXyz() {
