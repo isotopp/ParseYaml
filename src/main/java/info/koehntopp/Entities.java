@@ -9,7 +9,7 @@ public class Entities {
     private ArrayList<Entity> entityList;
 
     public Entities() {
-        this.entityList = new ArrayList<Entity>();
+        this.entityList = new ArrayList<>();
     }
 
     public ArrayList<Entity> getEntityList() {
