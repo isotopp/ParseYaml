@@ -1,0 +1,13 @@
+---
+Entity:
+- name: "Keks"
+  killable: false
+  gold: 1000
+  bed:
+    xyz:
+    - 0
+    - 0
+    - 0
+- name: "Grimbart"
+  killable: true
+  hitpoints: 1200
